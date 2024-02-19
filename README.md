@@ -16,7 +16,8 @@ This challenge is designed based on the provided template from Frontend Mentor w
 
 ### Screenshot
 
-![image]()
+![image](https://github.com/Ventiator/Results-summary-component-frontendmentor-/assets/101021525/f3046af4-e6a3-4d90-b795-27df6aac06dc)
+
 
 
 ### Links

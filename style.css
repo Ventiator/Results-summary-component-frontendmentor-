@@ -20,17 +20,21 @@
 
 .green{
     color: var(--Greenteal);
+    background-color: hsl(173, 53%, 97%);
 }
 
 .red{
     color: var(--Lightred);
+    background-color: hsl(6, 100%, 98%);
 }
 
 .yellow{
     color: var(--Orangeyyellow);
+    background-color: hsl(42, 100%, 97%);
 }
 
 .blue{
+    background-color: hsl(245, 73%, 97%);
     color: var(--Cobaltblue);
 }
 
@@ -131,7 +135,6 @@ body{
 
 
 .reaction{
-    background-color: var(--Paleblue);
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -140,7 +143,7 @@ body{
     border-radius: 15px;
     margin-bottom: 20px;
     margin-inline: 50px;
-    margin: 0px 50px 15px 50px;
+
 }
 
 

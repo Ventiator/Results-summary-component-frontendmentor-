@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --Lightred: hsl(0, 100%, 67%);
+    --Orangeyyellow: hsl(39, 100%, 56%);
+    --Greenteal: hsl(166, 100%, 37%);
+    --Cobaltblue: hsl(234, 85%, 45%);
+    --White: hsl(0, 0%, 100%);
+    --Paleblue: hsl(221, 100%, 96%);
+    --Lightlavender: hsl(241, 100%, 89%);
+    --Darkgrayblue: hsl(224, 30%, 27%);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.green{
+    color: var(--Greenteal);
+}
+
+.red{
+    color: var(--Lightred);
+}
+
+.yellow{
+    color: var(--Orangeyyellow);
+}
+
+.blue{
+    color: var(--Cobaltblue);
+}
+
+body{
+    height: 100vh;
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Paleblue);
+}
+
+.container{
+    display: flex;
+    background-color: var(--White);
+    border-radius: 50px;
+}
+
+/* LEFTCARD HERE */
+
+.leftcard{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 368px;
+    height: 510px;
+    border-radius: 30px;
+}
+
+.circle{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    text-align: center;
+    width: 3.0rem;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    font-size: 46px;
+    color: var(--White);
+    font-weight: 500;
+}
+
+.leftcard p{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.leftcard h3{
+    color: var(--White);
+    padding-block: 2.4rem;
+    font-size: 24px;
+}
+
+/* rightcard HERE */
+
+.rightcard{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--White);
+    width: 375px;
+    margin-bottom: 30px;
+    
+}
+
+
+.rightcard h3{
+    font-size: 24px;
+    margin: 2.4rem 2.4rem 1.5rem;
+    
+}
+
+
+
+
+.reaction > .pp{
+    color: black;
+    padding-left: 50px;
+    font-weight: 700;
+}
+
+#new{
+    padding-top: 25px;
+    padding-bottom: 14px;
+    font-size: 32px;
+    color: var(--White);
+}
+
+#text{
+    padding-inline: 54px;
+    color: var(--White);
+}
+
+
+.reaction{
+    background-color: var(--Paleblue);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 20px;
+    align-content: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-inline: 50px;
+    margin: 0px 50px 15px 50px;
+}
+
+
+.btn{
+    font-size: 16px;
+    background-color: var(--Darkgrayblue);
+    border: var(--Darkgrayblue);
+    height: 50px;
+    width: 290px;
+    border-radius: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    color: var(--White);
+}
